@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
-    public Transform Dest;
-    void OnMouseDown()
+    //public Transform Dest;
+    public void MouseDown()
     {
-        GetComponent<Rigidbody>().useGravity = false;
-        this.transform.position = Dest.position;
-        this.transform.parent = GameObject.Find("Destination").transform;
+        //GetComponent<Rigidbody>().useGravity = false;
+        //this.transform.position = Dest.position;
+        //this.transform.parent = GameObject.Find("Destination").transform;
     }
-    void OnMouseUp()
+    public void MouseUp()
     {
-        this.transform.parent = null;
-        GetComponent<Rigidbody>().useGravity = true;
+        //this.transform.parent = null;
+        //GetComponent<Rigidbody>().useGravity = true;
 
     }
 }
