@@ -48,6 +48,7 @@ public class RayMng : MonoBehaviour
                 if (selectionRenderer != null)
                 {
                     selectionRenderer.material = highlightMaterial;
+                    
                 }
 
                 SelectCheck = selection;
@@ -65,7 +66,7 @@ public class RayMng : MonoBehaviour
                 }
                 else
                 {
-                    if (hit.transform.gameObject.name == "FoodTest1")
+                    if (hit.transform.CompareTag("Selectable"))
                     {
                         ChileObjects = hit.transform.gameObject;
                         hit.rigidbody.useGravity = false;

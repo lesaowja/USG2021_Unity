@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] Camera cam;
     [SerializeField] Rigidbody rigid;
-    
+   
 
     private float horizontal = 0f;
     private float vertical =0f;
@@ -14,8 +14,15 @@ public class PlayerController : MonoBehaviour
     public float Speed = 3.0f;
     [Range(2.0f, 10.0f)]
     public float CamSpeed = 0.5f;
+
+    [Header("Animator")]
+    Animator ani;
+    bool Ismove = false;
+    bool isRun = false;
+
     void Start()
     {
+        ani = GetComponent<Animator>();
         if(cam==null)
         cam = GetComponentInChildren<Camera>();
         if(rigid == null)
@@ -30,10 +37,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             SetSpeed(5);
+            isRun = true;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             SetSpeed(3);
+            isRun = false;
         }
         if(Input.GetKeyUp(KeyCode.A) ||Input.GetKeyUp(KeyCode.D))
         {
