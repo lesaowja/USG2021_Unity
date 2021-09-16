@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Animator")]
     Animator ani;
-    bool Ismove = false;
+    bool IsMove = false;
     bool isRun = false;
 
     void Start()
@@ -82,12 +82,20 @@ public class PlayerController : MonoBehaviour
                 vertical = -1;
             }
         }
+
+        if(vertical == 0 && horizontal == 0)
+        {
+            IsMove = false;
+        }
+        else 
+        { 
+            IsMove = true; 
+        }
+        
     }
      void FixedUpdate()
     {
-        //키보드로 이동
-        //horizontal = Input.GetAxis("Horizontal");
-        //vertical = Input.GetAxis("Vertical");
+        //키보드로 이동 
         Vector3 dir = (Vector3.forward * vertical) + (Vector3.right * horizontal);
         transform.Translate(dir.normalized * Time.deltaTime * Speed);
 
@@ -98,7 +106,8 @@ public class PlayerController : MonoBehaviour
 
         transform.Rotate(Vector3.up * CamSpeed * mouseX, Space.World);
         cam.transform.Rotate(Vector3.left * CamSpeed * mouseY);
-
+        ani.SetBool("IsRun", isRun);
+        ani.SetBool("IsMove", IsMove);
     }
 
     void SetSpeed(int _speed)

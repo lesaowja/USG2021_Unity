@@ -47,8 +47,8 @@ public class RayMng : MonoBehaviour
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    defaultMaterial = selectionRenderer.material;
                     selectionRenderer.material = highlightMaterial;
-                    
                 }
 
                 SelectCheck = selection;
