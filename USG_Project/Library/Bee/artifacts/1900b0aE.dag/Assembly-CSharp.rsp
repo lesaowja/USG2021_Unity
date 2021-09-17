@@ -331,10 +331,10 @@
 "Assets/Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/FPS By Acacia Developer/PlayerLook.cs"
 "Assets/Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/FPS By Acacia Developer/PlayerMove.cs"
 "Assets/Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/Windows/opencloseWindow1.cs"
-"Assets/PickUp.cs"
-"Assets/RayMng.cs"
 "Assets/Script/CamMove.cs"
+"Assets/Script/PickUp.cs"
 "Assets/Script/PlayerController.cs"
+"Assets/Script/RayMng.cs"
 -langversion:8.0
 
 /deterministic

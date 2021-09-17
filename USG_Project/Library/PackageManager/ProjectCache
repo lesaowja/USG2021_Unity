@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637667183157302510
+      ticks: 637674082430000000
     m_Hash: 4290753299
   m_LockFileStatus:
     m_FilePath: C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637667183750282755
+      ticks: 637674082430000000
     m_Hash: 3855210041
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
