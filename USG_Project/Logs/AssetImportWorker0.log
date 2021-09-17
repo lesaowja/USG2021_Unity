@@ -15,11 +15,11 @@ C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53310
+58319
 Successfully changed project path to: C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project
 C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 125.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 110.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,241 +35,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.295902 seconds.
+Registered in 0.002877 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 222.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 107.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.049 seconds
+- Completed reload, in  3.734 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008505 seconds.
+Registered in 0.004274 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
+- Completed reload, in  1.194 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.1 MB.
-System memory in use after: 104.2 MB.
+System memory in use after: 104.3 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 2.773400 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.214100 ms MarkObjects: 2.185200 ms  DeleteObjects: 0.104200 ms)
+Total: 2.982400 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.247100 ms MarkObjects: 2.399900 ms  DeleteObjects: 0.117500 ms)
 
+========================================================================
+Received Import Request.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOven.controller
+  artifactKey: Guid(f9f461f81ce295946b15b4c3d61c68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOven.controller using Guid(f9f461f81ce295946b15b4c3d61c68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f1ba3772f88dde7d9aefa72475bdee') in 0.077645 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.015042 seconds.
+Registered in 0.008814 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.684 seconds
+- Completed reload, in  1.779 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
+System memory in use before: 104.1 MB.
+System memory in use after: 104.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 4.109700 ms (FindLiveObjects: 0.606700 ms CreateObjectMapping: 0.284400 ms MarkObjects: 3.159500 ms  DeleteObjects: 0.057300 ms)
+Total: 5.234600 ms (FindLiveObjects: 0.265000 ms CreateObjectMapping: 0.180700 ms MarkObjects: 4.666200 ms  DeleteObjects: 0.121000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Exterior.fbx
-  artifactKey: Guid(1e4c9d0deb3bcc144ae6e91318e143a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Exterior.fbx using Guid(1e4c9d0deb3bcc144ae6e91318e143a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4c2545a062df7cebae471c9a303002') in 0.953512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 01 - Tall.fbx
-  artifactKey: Guid(fe9f9e2afa91b4a4f94dac29ac57a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 01 - Tall.fbx using Guid(fe9f9e2afa91b4a4f94dac29ac57a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343d4e1de6aca0908c73f8407ef12327') in 0.302322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 03.fbx
-  artifactKey: Guid(6b9edcf61c53ecc41b01349ec645716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 03.fbx using Guid(6b9edcf61c53ecc41b01349ec645716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95cba9843c576db570f64a451bb572d') in 0.129783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 05.fbx
-  artifactKey: Guid(3921001093c385e4dabfa4ca4af5ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 05.fbx using Guid(3921001093c385e4dabfa4ca4af5ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e129547dc2393c383fa6d0ee6f498') in 0.057553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 03 - Tall.fbx
-  artifactKey: Guid(353ea8319b747c64cb03a2edab4cab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 03 - Tall.fbx using Guid(353ea8319b747c64cb03a2edab4cab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e1cd4a87a3797873ac4f9db98a60e9') in 0.156497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 01.fbx
-  artifactKey: Guid(8537129dc3fbbe44186add4eea186b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 01.fbx using Guid(8537129dc3fbbe44186add4eea186b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cfacc9da25d6c053a8618e8e78e72c') in 0.302588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005387 seconds.
-  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Models/Build Kit PZ Exterior_04.fbx
-  artifactKey: Guid(ffc5eaeb0f09e93498ff3f7136ed0d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Models/Build Kit PZ Exterior_04.fbx using Guid(ffc5eaeb0f09e93498ff3f7136ed0d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7f4c70a0dff121fa207fc9a87a757f') in 0.181215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000759 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 02.fbx
-  artifactKey: Guid(89af11f9873cf924ca7ef2e59fdb00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 02.fbx using Guid(89af11f9873cf924ca7ef2e59fdb00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f87f7f44554b484657bcf8976ee5c5f') in 0.279713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 05 - Tall.fbx
-  artifactKey: Guid(8386785c75026054e95e3d4e99cb6d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 05 - Tall.fbx using Guid(8386785c75026054e95e3d4e99cb6d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdbb1f7fdc8ab81b34c175fa7dc89dc') in 0.060409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 04 - Tall.fbx
-  artifactKey: Guid(a9b281e2f66fe6a49bd0fdec6484cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 04 - Tall.fbx using Guid(a9b281e2f66fe6a49bd0fdec6484cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3239450cad0d9cb0e2125b5a0239621d') in 0.157197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 04.fbx
-  artifactKey: Guid(fb5d8fe94bfe80a4788fa4cbf4c91d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/SE Basic Assets/Models/Build Kits/Build Kit Interior - 04.fbx using Guid(fb5d8fe94bfe80a4788fa4cbf4c91d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969e38ae68ea2b925e7b6aefdc1375e5') in 0.160729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Models/Build Kit PZ Exterior_02.fbx
-  artifactKey: Guid(caecbc401d4ee7d4d90471bd260543bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Models/Build Kit PZ Exterior_02.fbx using Guid(caecbc401d4ee7d4d90471bd260543bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3183dd265b5cbec0426eca098db37d4') in 0.503965 seconds 
+  Time since last request: 33.650432 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOpenOven.anim
+  artifactKey: Guid(d2345a08b972d60418cbe4f570f90475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOpenOven.anim using Guid(d2345a08b972d60418cbe4f570f90475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61adf4f7428d3be986e94cc94ef625') in 0.042697 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013508 seconds.
+Registered in 0.007578 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.700 seconds
+- Completed reload, in  1.981 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.2 MB.
-System memory in use after: 108.4 MB.
+System memory in use before: 104.2 MB.
+System memory in use after: 104.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3189.
-Total: 3.623400 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.148300 ms MarkObjects: 3.145200 ms  DeleteObjects: 0.053000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011674 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.404 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3192.
-Total: 6.739500 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 1.400300 ms MarkObjects: 4.906800 ms  DeleteObjects: 0.058000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010172 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.142 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3195.
-Total: 3.183500 ms (FindLiveObjects: 0.221100 ms CreateObjectMapping: 0.239500 ms MarkObjects: 2.672000 ms  DeleteObjects: 0.049700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005890 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.737 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3198.
-Total: 2.559500 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.143600 ms  DeleteObjects: 0.052000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004493 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.609 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3201.
-Total: 2.310900 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.133200 ms MarkObjects: 1.875800 ms  DeleteObjects: 0.069800 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3146.
+Total: 2.639200 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 2.180200 ms  DeleteObjects: 0.068800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
