@@ -331,6 +331,7 @@
 "Assets/Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/FPS By Acacia Developer/PlayerLook.cs"
 "Assets/Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/FPS By Acacia Developer/PlayerMove.cs"
 "Assets/Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/Windows/opencloseWindow1.cs"
+"Assets/OvenMove.cs"
 "Assets/Script/CamMove.cs"
 "Assets/Script/PickUp.cs"
 "Assets/Script/PlayerController.cs"

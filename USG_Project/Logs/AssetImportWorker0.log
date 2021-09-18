@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.1165; Version 2004; 64bit' Language: 'ko' Physical Memory: 16238 MB
+OS: 'Windows 10 Pro; OS build 19041.1237; Version 2004; 64bit' Language: 'ko' Physical Memory: 16238 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58319
+59519
 Successfully changed project path to: C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project
 C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 104.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,324 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002877 seconds.
+Registered in 0.002766 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 119.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.734 seconds
+- Completed reload, in  3.453 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004274 seconds.
+Registered in 0.005888 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.194 seconds
+- Completed reload, in  1.892 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.1 MB.
+System memory in use before: 104.2 MB.
 System memory in use after: 104.3 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 2.982400 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.247100 ms MarkObjects: 2.399900 ms  DeleteObjects: 0.117500 ms)
+Total: 3.334000 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.241400 ms MarkObjects: 2.708100 ms  DeleteObjects: 0.091600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOven.controller
-  artifactKey: Guid(f9f461f81ce295946b15b4c3d61c68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOven.controller using Guid(f9f461f81ce295946b15b4c3d61c68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f1ba3772f88dde7d9aefa72475bdee') in 0.077645 seconds 
+  path: Assets/Script/RayMng.cs
+  artifactKey: Guid(5759483ba8b014c40991ee3643ce77b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/RayMng.cs using Guid(5759483ba8b014c40991ee3643ce77b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575ae6e15451f372ae1d6acf14f7c531') in 0.190856 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008814 seconds.
+Registered in 0.004854 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.779 seconds
+- Completed reload, in  1.068 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.1 MB.
 System memory in use after: 104.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 5.234600 ms (FindLiveObjects: 0.265000 ms CreateObjectMapping: 0.180700 ms MarkObjects: 4.666200 ms  DeleteObjects: 0.121000 ms)
+Total: 3.052700 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.590200 ms  DeleteObjects: 0.108400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 33.650432 seconds.
-  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOpenOven.anim
-  artifactKey: Guid(d2345a08b972d60418cbe4f570f90475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOpenOven.anim using Guid(d2345a08b972d60418cbe4f570f90475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61adf4f7428d3be986e94cc94ef625') in 0.042697 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007578 seconds.
+Registered in 0.003449 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.981 seconds
+- Completed reload, in  1.127 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.2 MB.
 System memory in use after: 104.4 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3146.
-Total: 2.639200 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 2.180200 ms  DeleteObjects: 0.068800 ms)
+Total: 2.200300 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.179100 ms MarkObjects: 1.756500 ms  DeleteObjects: 0.054200 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007308 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.988 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3149.
+Total: 2.131000 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.159900 ms MarkObjects: 1.695400 ms  DeleteObjects: 0.048700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004138 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3152.
+Total: 2.140400 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.136200 ms MarkObjects: 1.686800 ms  DeleteObjects: 0.112600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004001 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3155.
+Total: 6.074000 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.135600 ms MarkObjects: 5.655000 ms  DeleteObjects: 0.054600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003890 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 2.643900 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.223300 ms MarkObjects: 2.063300 ms  DeleteObjects: 0.049500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 949.683323 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOven.controller
+  artifactKey: Guid(f9f461f81ce295946b15b4c3d61c68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Scripts and Animations/FlipOven.controller using Guid(f9f461f81ce295946b15b4c3d61c68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0be9dec45c216a3478808b6b2070939') in 0.041478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.558221 seconds.
+  path: Assets/Animator Controller/OvenController.controller
+  artifactKey: Guid(0334a01d0de2d1a4d92e31e37c4f3b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator Controller/OvenController.controller using Guid(0334a01d0de2d1a4d92e31e37c4f3b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8680e862649a67edd8a76da1baa8e750') in 0.010393 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010396 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3161.
+Total: 2.981800 ms (FindLiveObjects: 0.304700 ms CreateObjectMapping: 0.184000 ms MarkObjects: 2.425400 ms  DeleteObjects: 0.066500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004055 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3164.
+Total: 2.880300 ms (FindLiveObjects: 0.239500 ms CreateObjectMapping: 0.137600 ms MarkObjects: 2.449200 ms  DeleteObjects: 0.053200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005237 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG_Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 2.019700 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.137600 ms MarkObjects: 1.618000 ms  DeleteObjects: 0.045400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.698542 seconds.
+  path: Assets/OvenController.cs
+  artifactKey: Guid(5e2c27d7bdaaa80489e496fe258a7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OvenController.cs using Guid(5e2c27d7bdaaa80489e496fe258a7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c753d683008520c55e1af5f2faccb8aa') in 0.023777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.883239 seconds.
+  path: Assets/OvenController1.cs
+  artifactKey: Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OvenController1.cs using Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99788b6632a83474d26442d3071b4cea') in 0.011653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.398152 seconds.
+  path: Assets/OvenController1.cs
+  artifactKey: Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OvenController1.cs using Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab14777c3abd15cdd4b0786bba60a9ea') in 0.023917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.113639 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Props/Misc/Plate Ivory.prefab
+  artifactKey: Guid(08696c49cf35bba488205f39de40eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Props/Misc/Plate Ivory.prefab using Guid(08696c49cf35bba488205f39de40eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9707b4246ea10a95e8c6ce6e072af6') in 0.171763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Materials/Surfaces/Textured Surface_ivory.mat
+  artifactKey: Guid(bf2d8b898da226f418559c0099d75162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Materials/Surfaces/Textured Surface_ivory.mat using Guid(bf2d8b898da226f418559c0099d75162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f8002c06529c4b4b0c25a72bcb958b') in 0.251498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.919852 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Materials/Misc/Brick Oven.mat
+  artifactKey: Guid(04f7d5a4effbf9b4a83cba84b1c9e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Materials/Misc/Brick Oven.mat using Guid(04f7d5a4effbf9b4a83cba84b1c9e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b46e8eedb29c59580032ac8cdb1e79') in 0.088270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Textures/Misc/Brick Oven_Normal.png
+  artifactKey: Guid(4e2e6fb4b9a4c1c4c8d0c223d78c1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Textures/Misc/Brick Oven_Normal.png using Guid(4e2e6fb4b9a4c1c4c8d0c223d78c1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91faac2ea3bf8805223e5bdda84ad263') in 0.119492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Equipment/Pizza Oven.prefab
+  artifactKey: Guid(340696a2388eaed4f9d36b61833afc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Equipment/Pizza Oven.prefab using Guid(340696a2388eaed4f9d36b61833afc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9bb2d9b505d67c0a32f72f046b0492') in 0.044440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Props/Misc/Pizza Oven Plate_01.prefab
+  artifactKey: Guid(fa13430af62d8bc46878dcf3b5e07903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Props/Misc/Pizza Oven Plate_01.prefab using Guid(fa13430af62d8bc46878dcf3b5e07903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2173ac4ecb2af8e7d6bf3b8d20528f8c') in 0.178145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Assets/Soja Exiles/NY Style Pizza SE/Textures/Misc/Brick Oven_Albedo.png
+  artifactKey: Guid(e517853bc4851e143b58a149c7e9d85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Soja Exiles/NY Style Pizza SE/Textures/Misc/Brick Oven_Albedo.png using Guid(e517853bc4851e143b58a149c7e9d85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfc60d0c7368d6d85c3405ceabece9d') in 0.057750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.971955 seconds.
+  path: Assets/OvenMove.cs
+  artifactKey: Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OvenMove.cs using Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c0406d06183ae42ec1ef53605c787e') in 0.122473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.862938 seconds.
+  path: Assets/OvenMove.cs
+  artifactKey: Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OvenMove.cs using Guid(ed153084dad953f4f87f4e7a3ddeea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e440c31a697f227cbc6f77ff94c6a04') in 0.015980 seconds 
