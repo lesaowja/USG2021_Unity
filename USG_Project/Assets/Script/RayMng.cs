@@ -58,7 +58,7 @@ public class RayMng : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                if(ChileObjects != null)
+                if (ChileObjects != null)
                 {
                     ChileObjects.transform.parent = null;
                     ChileObjects.GetComponent<Rigidbody>().useGravity = true;
@@ -66,23 +66,22 @@ public class RayMng : MonoBehaviour
                 }
                 else
                 {
+                    if (hit.transform.CompareTag("Selectable"))
+                   { 
+                        ChileObjects = hit.transform.gameObject;
+                        hit.rigidbody.useGravity = false;
+                        hit.transform.position = Dest.position;
+                        hit.transform.parent = GameObject.Find("PickUpPoition").transform;
+                  
+                    }
                     if (hit.transform.CompareTag("Oven"))
                     {
                         hit.collider.gameObject.GetComponent<OvenMove>().open = !hit.collider.gameObject.GetComponent<OvenMove>().open;
                         hit.collider.gameObject.GetComponent<OvenMove>().setOven();
                     }
-                    if (hit.transform.CompareTag("Selectable"))
-                    {
-                        ChileObjects = hit.transform.gameObject;
-                        hit.rigidbody.useGravity = false;
-                        hit.transform.position = Dest.position;
-                        hit.transform.parent = GameObject.Find("PickUpPoitions").transform;
-
-                    }
-                   
                 }
-                
 
+              
             }   
 
         }
