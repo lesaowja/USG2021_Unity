@@ -1,0 +1,177 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1237; Version 2004; 64bit' Language: 'ko' Physical Memory: 16238 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG MAp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64559
+Successfully changed project path to: C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG MAp
+C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG MAp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 118.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kim LESA/Documents/GitHub/USG2021_Unity/USG MAp/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f07)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005490 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.352 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004076 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG MAp\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG MAp\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.586 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 2.898600 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.241100 ms MarkObjects: 2.200700 ms  DeleteObjects: 0.093800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.027460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.369500 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Scenes
+  artifactKey: Guid(c142a61bb65b2a2408b6048fb8f896ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Scenes using Guid(c142a61bb65b2a2408b6048fb8f896ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1569b9a14280062dc7af39d897e2324e') in 0.014745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.824997 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE
+  artifactKey: Guid(f9f347e1b31e89c4f9ced48b87b44482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE using Guid(f9f347e1b31e89c4f9ced48b87b44482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07ec3d3d6abccf5a75517582ac9160f') in 0.011628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.204439 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Food/Pizza_01.mat
+  artifactKey: Guid(af469ac8dd9e73249b8b926b75e12413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Food/Pizza_01.mat using Guid(af469ac8dd9e73249b8b926b75e12413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e448b148bbc344fe29a8bc529f5ae1') in 0.903486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.795042 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Exteriors/EXT_PZ_WallRoof_01.mat
+  artifactKey: Guid(86d73c5eeb949704bbbe2beedebcddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Exteriors/EXT_PZ_WallRoof_01.mat using Guid(86d73c5eeb949704bbbe2beedebcddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60ba75417af492f4583379a9701db89') in 0.261430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Exteriors/EXT_PZ_WallRoof_03.mat
+  artifactKey: Guid(d58b17e4ee51e034cacad3ada67c5127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Exteriors/EXT_PZ_WallRoof_03.mat using Guid(d58b17e4ee51e034cacad3ada67c5127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f3e32a0fed320472a907631acca042') in 0.046763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491777 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Pizza Boxes/Pizza Box_01_01.mat
+  artifactKey: Guid(052219271661b2d4393475ab6176061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Pizza Boxes/Pizza Box_01_01.mat using Guid(052219271661b2d4393475ab6176061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1b0b50b8bc68e4bda5d9d522b175ba') in 0.396725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Pizza Boxes/Pizza Box_01_02.mat
+  artifactKey: Guid(32a281ffaf7698b428bb76a1ab6b783d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Pizza Boxes/Pizza Box_01_02.mat using Guid(32a281ffaf7698b428bb76a1ab6b783d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96950db75d4260ee7a20cd7a578cd7be') in 0.047111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089048 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Canopy_01.mat
+  artifactKey: Guid(25466e56899735845bce4cc5c4de69c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Canopy_01.mat using Guid(25466e56899735845bce4cc5c4de69c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f77589d333eb83ed28b856694119bd8') in 0.164279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Window Decal_03.mat
+  artifactKey: Guid(e0b8d28729abad1419ee85aca9ebfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Window Decal_03.mat using Guid(e0b8d28729abad1419ee85aca9ebfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab0a0280584653e790599f1fff7620d') in 0.399842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Carpet Pizza_04.mat
+  artifactKey: Guid(82738bfb34f281e49a0069f38815d6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Materials/Decals Logos/Carpet Pizza_04.mat using Guid(82738bfb34f281e49a0069f38815d6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b62d5661d13a608f32ff82ac63931') in 0.040495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.760101 seconds.
+  path: Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Structure/Populated/요리와한룡_피자가게_0925수정본_김용건.prefab
+  artifactKey: Guid(e90917cafc0be2945b0cdc7e7fdd107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/NY Style Pizza SE/Prefabs/Structure/Populated/요리와한룡_피자가게_0925수정본_김용건.prefab using Guid(e90917cafc0be2945b0cdc7e7fdd107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32544de29e0aecec920ba463616fb3b4') in 7.980065 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG MAp\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kim LESA\Documents\GitHub\USG2021_Unity\USG MAp\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2672 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3174.
+Total: 2.445300 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.176500 ms MarkObjects: 1.846300 ms  DeleteObjects: 0.163000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.750276 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.018174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.323442 seconds.
+  path: Assets/USG_MAP
+  artifactKey: Guid(92d72fedbefea5349b69e0a8b50321e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USG_MAP using Guid(92d72fedbefea5349b69e0a8b50321e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2e9671e5879c21a58006565392964c') in 0.013386 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

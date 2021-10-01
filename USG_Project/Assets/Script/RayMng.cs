@@ -17,12 +17,14 @@ public class RayMng : MonoBehaviour
     [Header("Seletable Object Renderer")]
     [SerializeField] private GameObject ChileObjects;
     [SerializeField] private Material highlightMaterial;
-    [SerializeField] private string SelectableTag = "Selectable";
+    [SerializeField] private string SelectableTag = "Selectable"; 
+    [SerializeField] private string SelectableTag2 = "Cutter";
     [SerializeField] private Material defaultMaterial;
 
     private Transform SelectCheck;
-
-   
+    public bool HaveObject = false;
+    public bool HaveCutter = false;
+    public bool HavePizza = false;
     void Start()
     {
         MiddlePoint = new Vector3(cam.pixelWidth / 2, cam.pixelHeight / 2);  
@@ -42,7 +44,7 @@ public class RayMng : MonoBehaviour
         if (Physics.Raycast(ray, out hit, HitRange))
         {
             var selection = hit.transform;
-            if(selection.CompareTag(SelectableTag))
+            if(selection.CompareTag(SelectableTag)|| selection.CompareTag(SelectableTag2))
             {
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
@@ -60,19 +62,41 @@ public class RayMng : MonoBehaviour
             {
                 if (ChileObjects != null)
                 {
+                    HaveObject = false;
+                    HaveCutter = false;
+                    HavePizza = false;
                     ChileObjects.transform.parent = null;
                     ChileObjects.GetComponent<Rigidbody>().useGravity = true;
                     ChileObjects = null;
                 }
                 else
                 {
-                    if (hit.transform.CompareTag("Selectable"))
-                   { 
+                    if (hit.transform.CompareTag(SelectableTag))
+                    {
+                        HaveObject = true;
                         ChileObjects = hit.transform.gameObject;
                         hit.rigidbody.useGravity = false;
                         hit.transform.position = Dest.position;
                         hit.transform.parent = GameObject.Find("PickUpPoition").transform;
                   
+                    }
+                    if( hit.transform.CompareTag(SelectableTag2))
+                    {
+
+                        HaveCutter = true;
+                        ChileObjects = hit.transform.gameObject;
+                        hit.rigidbody.useGravity = false;
+                        hit.transform.position = Dest.position;
+                        hit.transform.parent = GameObject.Find("PickUpPoition").transform;
+                    }
+                    if (hit.transform.CompareTag("Pizza"))
+                    {
+
+                        HavePizza = true;
+                        ChileObjects = hit.transform.gameObject;
+                        hit.rigidbody.useGravity = false;
+                        hit.transform.position = Dest.position;
+                        hit.transform.parent = GameObject.Find("PickUpPoition").transform;
                     }
                     if (hit.transform.CompareTag("Oven"))
                     {
@@ -90,5 +114,11 @@ public class RayMng : MonoBehaviour
       
         
        
+    }
+        
+    public void DestroyChild()
+    {
+        Destroy(ChileObjects);
+        ChileObjects = null;
     }
 }

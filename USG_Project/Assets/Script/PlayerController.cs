@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public float Speed = 3.0f;
     [Range(2.0f, 10.0f)]
     public float CamSpeed = 0.5f;
-
+     
     [Header("Animator")]
     Animator ani;
     bool IsMove = false;
